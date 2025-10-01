@@ -12,6 +12,9 @@ This paper introduces **Density-Ratio Weighted Behavioral Cloning (Weighted BC)*
 
 Weighted BC leverages a small clean reference dataset to train a binary discriminator that identifies corrupted samples. These density ratios are then used as weights, prioritizing trusted trajectories and automatically down-weighting or removing suspicious data, all **without requiring prior knowledge of the contamination mechanism**.
 
+![Uploading image.png…]()
+
+
 ## Key Contributions
 
 - **Robustness to Data Poisoning:** Weighted BC maintains near-optimal performance even at high levels of data corruption, outperforming classic BC, BCQ, and BRAC on continuous control environments.
